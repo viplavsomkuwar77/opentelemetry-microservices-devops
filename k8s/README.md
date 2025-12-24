@@ -1,12 +1,12 @@
-## Kubernetes Deployment
+## Kubernetes Manifests
 
 This directory contains Kubernetes manifests used to deploy the
 OpenTelemetry microservices demo application.
 
-- `complete-deploy.yaml` includes all core microservices such as
-  Ads, Cart, Checkout, Payment, Recommendation, and Product Catalog.
-- The manifest defines Services, Deployments, and ServiceAccounts
-  required to run the application on a Kubernetes cluster.
+### Manifests
+- `manifests/complete-deploy.yaml`  
+  Deploys all core microservices including Ads, Cart, Checkout,
+  Payment, Recommendation, Product Catalog, and supporting services.
 
-This approach was used to understand end-to-end microservices
-deployment and service communication within Kubernetes.
+The manifest defines Kubernetes Deployments, Services, and
+ServiceAccounts required to run the application on a cluster.
