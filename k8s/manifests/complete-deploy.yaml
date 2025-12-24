@@ -1,3 +1,6 @@
+# Kubernetes manifest for OpenTelemetry microservices demo
+# This file deploys multiple microservices (ads, cart, checkout, payment, etc.)
+# Used to understand end-to-end microservices deployment in Kubernetes
 ---
 apiVersion: v1
 kind: ServiceAccount
