@@ -1,13 +1,10 @@
 ## Docker Deployment
 
-Selected microservices in this project are containerized using Docker.
+Selected microservices in this project are containerized using Docker. Each 
+Dockerfile corresponds to a service (e.g., frontend, cart, checkout).
 
-Docker images are built for individual services and used by Kubernetes
-for deployment. The Docker setup supports:
+Docker images are built locally and used for Kubernetes deployment. This setup 
+supports consistent environments, service isolation, and CI/CD integration.
 
-- Consistent runtime environments
-- Easy service isolation
-- Seamless integration with CI/CD pipelines
-
-Docker Compose and Make were used during local development to spin up
-the OpenTelemetry demo stack for testing and validation.
+Docker Compose and Make were used during local development to bring up the 
+OpenTelemetry demo stack for testing and validation.
