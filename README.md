@@ -1,18 +1,24 @@
 🚀 OpenTelemetry Microservices DevOps Project
+---
 
 📌 Overview
+---
 
 This project demonstrates a production-like microservices architecture deployed on Kubernetes and instrumented with OpenTelemetry for complete observability (logs, metrics, and traces).
 
 It simulates an e-commerce application composed of multiple microservices such as Cart, Checkout, Payment, Recommendation, and Product Catalog.
 The project focuses on DevOps best practices, including containerization, CI/CD automation, observability, and load testing.
 
+
 🏗 Architecture
+---
 
 ![Project-arch](https://github.com/user-attachments/assets/8ebfc5ba-d14f-4667-9f05-61a9dc0acdc2)
 
 
+
 🧩 Microservices
+---
 
 • Frontend
 
@@ -33,8 +39,9 @@ The project focuses on DevOps best practices, including containerization, CI/CD 
 • Email Service
 
 🛠 Tech Stack
+---
 
-Containers & Orchestration
+**Containers & Orchestration**
 
 • Docker
 
@@ -42,11 +49,11 @@ Containers & Orchestration
 
 • Helm
 
-CI/CD
+**CI/CD**
 
 • GitHub Actions
 
-Observability
+**Observability**
 
 • OpenTelemetry
 
@@ -54,11 +61,12 @@ Observability
 
 • Grafana
 
-Load Testing
+**Load Testing**
 
 • Locust
 
 🔁 CI/CD Pipeline
+---
 
 GitHub Actions pipeline automatically:
 
@@ -69,6 +77,7 @@ GitHub Actions pipeline automatically:
 • Deploys microservices to Kubernetes using Helm
 
 📊 Observability
+---
 
 • Integrated OpenTelemetry SDK in all services
 
@@ -76,15 +85,16 @@ GitHub Actions pipeline automatically:
 
 • Collected:
 
-  • Traces for distributed request tracking
+   Traces for distributed request tracking
 
-  • Metrics for service performance
+   Metrics for service performance
 
-  • Logs for debugging
+   Logs for debugging
 
 • Visualized metrics and traces using Prometheus and Grafana
 
 📈 Load Testing
+---
 
 • Used Locust to generate traffic
 
@@ -93,6 +103,7 @@ GitHub Actions pipeline automatically:
 • Observed latency and error rates via dashboards
 
 🎯 Key DevOps Learnings
+---
 
 • Kubernetes-based microservices deployment
 
