@@ -114,3 +114,8 @@ GitHub Actions pipeline automatically:
 • Monitoring and troubleshooting distributed systems
 
 • Load testing and performance analysis
+
+---
+📌 This project is based on the OpenTelemetry demo and focuses on
+DevOps practices such as Kubernetes deployment, CI/CD, and observability.
+
