@@ -81,7 +81,7 @@ Docker images to a registry and the deploy step would use Helm or kubectl for de
 📊 Observability
 ---
 
-• Integrated OpenTelemetry SDK in all services
+• Uses OpenTelemetry Collector configuration from the OpenTelemetry demo to collect telemetry (traces, metrics, logs) from multiple microservices
 
 • Configured OpenTelemetry Collector
 
