@@ -65,16 +65,18 @@ The project focuses on DevOps best practices, including containerization, CI/CD 
 
 • Locust
 
-🔁 CI/CD Pipeline
+🔁CI/CD Workflow
 ---
 
-GitHub Actions pipeline automatically:
+This repository contains a GitHub Actions workflow demonstrating the CI/CD flow. 
+On each push to the main branch:
+- The workflow checks out the code
+- Simulates building Docker images
+- Illustrates deployment steps for Kubernetes
 
-• Builds Docker images
+This pipeline acts as a template. In a real environment, the build step would push 
+Docker images to a registry and the deploy step would use Helm or kubectl for deployment.
 
-• Pushes images to container registry
-
-• Deploys microservices to Kubernetes using Helm
 
 📊 Observability
 ---
