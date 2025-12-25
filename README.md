@@ -1,123 +1,102 @@
-🚀 OpenTelemetry Microservices DevOps Project
+![CI](https://github.com/viplavsomkuwar77/opentelemetry-microservices-devops/actions/workflows/pipeline.yml/badge.svg)
+
+# OpenTelemetry Microservices DevOps Project
+
+## 🧩 Project Context
+
+This repository represents a microservices-based DevOps project that I worked on
+during my **9-month DevOps internship**. The project environment was used to
+implement, test, and continuously improve DevOps practices such as CI/CD
+automation, Kubernetes deployments, and observability.
+
+Due to confidentiality, this repository contains a recreated version that reflects
+the **same tools, workflows, and DevOps practices** used in the actual environment.
+
 ---
 
-📌 Overview
+## 🛠️ My Responsibilities
+
+- Worked closely with multiple development teams to support DevOps practices
+- Designed and improved CI/CD workflows using GitHub Actions
+- Created and maintained Kubernetes deployment manifests
+- Implemented observability using OpenTelemetry, Prometheus, and Grafana
+- Performed load testing using Locust and analyzed system behavior
+- Improved Docker configurations for selected microservices
+- Continuously enhanced deployment scripts and configurations
+
 ---
 
-This project demonstrates a production-like microservices architecture deployed on Kubernetes and instrumented with OpenTelemetry for complete observability (logs, metrics, and traces).
+## 🏗️ Architecture
 
-It simulates an e-commerce application composed of multiple microservices such as Cart, Checkout, Payment, Recommendation, and Product Catalog.
-The project focuses on DevOps best practices, including containerization, CI/CD automation, observability, and load testing.
+![Architecture Diagram](architecture/architecture-diagram.png)
 
-
-🏗 Architecture
 ---
 
-![Project-arch](https://github.com/user-attachments/assets/8ebfc5ba-d14f-4667-9f05-61a9dc0acdc2)
+## 🧱 Microservices
 
+The application follows a microservices architecture and includes services such as:
 
+- Frontend
+- Product Catalog
+- Recommendation Service
+- Cart Service
+- Checkout Service
+- Payment Service
+- Ads Service
+- Shipping Service
+- Email Service
 
-🧩 Microservices
 ---
 
-• Frontend
-
-• Product Catalog
-
-• Recommendation Service
-
-• Cart Service
-
-• Checkout Service
-
-• Payment Service
-
-• Ads Service
-
-• Shipping Service
-
-• Email Service
-
-🛠 Tech Stack
----
+## 🛠️ Tech Stack
 
 **Containers & Orchestration**
-
-• Docker
-
-• Kubernetes
-
-• Helm
+- Docker
+- Kubernetes
+- Helm
 
 **CI/CD**
-
-• GitHub Actions
+- GitHub Actions
 
 **Observability**
-
-• OpenTelemetry
-
-• Prometheus
-
-• Grafana
+- OpenTelemetry
+- Prometheus
+- Grafana
 
 **Load Testing**
-
-• Locust
-
-🔁CI/CD Workflow
----
-
-This repository contains a GitHub Actions workflow demonstrating the CI/CD flow. 
-On each push to the main branch:
-- The workflow checks out the code
-- Simulates building Docker images
-- Illustrates deployment steps for Kubernetes
-
-This pipeline acts as a template. In a real environment, the build step would push 
-Docker images to a registry and the deploy step would use Helm or kubectl for deployment.
-
-
-📊 Observability
----
-
-• Uses OpenTelemetry Collector configuration from the OpenTelemetry demo to collect telemetry (traces, metrics, logs) from multiple microservices
-
-• Configured OpenTelemetry Collector
-
-• Collected:
-
-   Traces for distributed request tracking
-
-   Metrics for service performance
-
-   Logs for debugging
-
-• Visualized metrics and traces using Prometheus and Grafana
-
-📈 Load Testing
----
-
-• Used Locust to generate traffic
-
-• Validated system performance under load
-
-• Observed latency and error rates via dashboards
-
-🎯 Key DevOps Learnings
----
-
-• Kubernetes-based microservices deployment
-
-• CI/CD automation using GitHub Actions
-
-• End-to-end observability using OpenTelemetry
-
-• Monitoring and troubleshooting distributed systems
-
-• Load testing and performance analysis
+- Locust
 
 ---
-📌 This project is based on the OpenTelemetry demo and focuses on
-DevOps practices such as Kubernetes deployment, CI/CD, and observability.
 
+## 🔁 CI/CD Workflow
+
+This repository contains a GitHub Actions workflow demonstrating the DevOps CI/CD flow.
+On each push to the `main` branch, the workflow:
+
+- Checks out the source code
+- Simulates Docker image build steps
+- Demonstrates where deployment steps would occur
+
+In a real production environment, the build stage would push Docker images to a
+container registry, and the deploy stage would update Kubernetes resources using
+tools such as Helm or kubectl.
+
+---
+
+## 📊 Observability
+
+This project uses the **OpenTelemetry Collector configuration** from the
+OpenTelemetry demo to collect telemetry data (traces, metrics, and logs)
+from multiple microservices.
+
+Telemetry data is exported and visualized using **Prometheus and Grafana**,
+enabling better monitoring and debugging of distributed systems.
+
+---
+
+## 🚦 Load Testing
+
+Load testing is performed using **Locust** to simulate user traffic and analyze
+system performance, latency, and error rates under load.
+
+---
