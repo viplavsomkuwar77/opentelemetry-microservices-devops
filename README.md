@@ -28,7 +28,7 @@ the **same tools, workflows, and DevOps practices** used in the actual environme
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](architecture/architecture-diagram.png)
+![architecture-diagram png](https://github.com/user-attachments/assets/c6738426-d977-4c0a-9839-3aab8985e76c)
 
 ---
 
