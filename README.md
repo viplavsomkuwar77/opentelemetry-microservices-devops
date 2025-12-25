@@ -100,3 +100,10 @@ Load testing is performed using **Locust** to simulate user traffic and analyze
 system performance, latency, and error rates under load.
 
 ---
+
+## 📌 Note
+
+This repository focuses on **DevOps concepts and workflows** and is intended to
+demonstrate real-world practices applied during an internship environment.
+
+---
