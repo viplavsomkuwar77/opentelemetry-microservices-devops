@@ -1,4 +1,4 @@
-![CI](https://github.com/viplavsomkuwar77/opentelemetry-microservices-devops/actions/workflows/pipeline.yml/badge.svg)
+![CI](https://github.com/viplavsomkuwar77/end-to-end-devops-microservices-k8s/actions/workflows/pipeline.yml/badge.svg)
 
 # End-to-End Microservices DevOps Platform
 
