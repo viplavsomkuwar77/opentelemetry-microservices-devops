@@ -1,28 +1,23 @@
 ![CI](https://github.com/viplavsomkuwar77/opentelemetry-microservices-devops/actions/workflows/pipeline.yml/badge.svg)
 
-# OpenTelemetry Microservices DevOps Project
+# End-to-End Microservices DevOps Platform
 
-## 🧩 Project Context
+🧩 Project Context
 
-This repository represents a microservices-based DevOps project that I worked on
-during my **9-month DevOps internship**. The project environment was used to
-implement, test, and continuously improve DevOps practices such as CI/CD
-automation, Kubernetes deployments, and observability.
+This repository is a hands-on implementation of the OpenTelemetry Demo application that I built to strengthen my practical DevOps skills. I customized the deployment, documentation, and CI/CD workflow — working with Docker, Kubernetes, GitHub Actions, observability tooling (OpenTelemetry, Prometheus, Grafana), and load testing with Locust — to deepen my understanding of production-style DevOps practices.
 
-Due to confidentiality, this repository contains a recreated version that reflects
-the **same tools, workflows, and DevOps practices** used in the actual environment.
+This project is intended for learning and portfolio purposes and demonstrates my practical DevOps skills.
 
 ---
 
-## 🛠️ My Responsibilities
+## 🎯 Project Objectives
 
-- Worked closely with multiple development teams to support DevOps practices
-- Designed and improved CI/CD workflows using GitHub Actions
-- Created and maintained Kubernetes deployment manifests
-- Implemented observability using OpenTelemetry, Prometheus, and Grafana
-- Performed load testing using Locust and analyzed system behavior
-- Improved Docker configurations for selected microservices
-- Continuously enhanced deployment scripts and configurations
+- Deploy a containerized microservices application
+- Implement Kubernetes deployments
+- Build a CI/CD workflow using GitHub Actions
+- Configure observability using OpenTelemetry
+- Monitor metrics with Prometheus and Grafana
+- Perform load testing using Locust
 
 ---
 
@@ -68,9 +63,36 @@ The application follows a microservices architecture and includes services such 
 
 ---
 
+## ✨ Features
+
+- Dockerized microservices
+- Kubernetes deployments
+- Helm charts
+- GitHub Actions CI/CD
+- OpenTelemetry integration
+- Prometheus monitoring
+- Grafana dashboards
+- Locust load testing
+
+---
+
+## 📂 Repository Structure
+
+```text
+.
+├── docker/
+├── kubernetes/
+├── observability/
+├── load-testing/
+├── architecture/
+└── .github/workflows/
+```
+
+---
+
 ## 🔁 CI/CD Workflow
 
-This repository contains a GitHub Actions workflow demonstrating the DevOps CI/CD flow.
+This repository demonstrates a GitHub Actions workflow for automating common DevOps tasks.
 On each push to the `main` branch, the workflow:
 
 - Checks out the source code
@@ -101,9 +123,56 @@ system performance, latency, and error rates under load.
 
 ---
 
-## 📌 Note
+## 📚 Key Learnings
 
-This repository focuses on **DevOps concepts and workflows** and is intended to
-demonstrate real-world practices applied during an internship environment.
+- Docker containerization
+- Kubernetes deployments
+- GitHub Actions automation
+- OpenTelemetry instrumentation
+- Prometheus monitoring
+- Grafana dashboards
+- Load testing with Locust
 
 ---
+
+## 💡 Technologies Used
+
+- Docker
+- Kubernetes
+- Helm
+- GitHub Actions
+- OpenTelemetry
+- Prometheus
+- Grafana
+- CI/CD
+- Monitoring
+- Observability
+- Load Testing
+  
+---
+
+## 🚀 Future Improvements
+
+- Deploy on AWS EKS
+- Add Terraform infrastructure
+- Implement ArgoCD GitOps
+- Integrate Trivy security scanning
+- Add Slack notifications
+
+---
+
+## 📖 References
+
+- OpenTelemetry Demo – https://github.com/open-telemetry/opentelemetry-demo
+- Kubernetes Documentation – https://kubernetes.io/docs/
+- Docker Documentation – https://docs.docker.com/
+- Prometheus Documentation – https://prometheus.io/docs/
+- Grafana Documentation – https://grafana.com/docs/
+
+---
+
+## 📌 Disclaimer
+
+This project is based on the OpenTelemetry Demo application and was implemented for learning and portfolio purposes.
+
+The deployment configuration, documentation, CI/CD workflow, and supporting DevOps practices have been customized to demonstrate my practical understanding of modern DevOps tools and workflows.
